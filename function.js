@@ -3,5 +3,5 @@ function printName(stark) {
     console.log(stark.age);
 }
 ;
-printName({ name: 'education', age: 'undefined' });
-printName({ name: 'i do', age: 'null' });
+printName({ name: 'education', age: 98 });
+printName({ name: 'i do' });

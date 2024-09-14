@@ -1,6 +1,6 @@
 interface Stark {
     name: string,
-    age: number,
+    age?: number, // ? for this it will not give an error
 }
 function printName(stark: Stark) {
     console.log(stark.name);
